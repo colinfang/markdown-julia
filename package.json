@@ -1,0 +1,37 @@
+{
+    "name": "markdown-julia",
+    "displayName": "Markdown Julia",
+    "description": "Markdown fenced code block syntax highlighting for Julia",
+    "version": "0.0.1",
+    "publisher": "colinfang",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "keywords": [
+        "Julia", "Markdown"
+    ],
+    "contributes": {
+        "grammars": [
+            {
+                "scopeName": "markdown.julia.codeblock",
+                "path": "./syntaxes/codeblock.json",
+                "injectTo": [
+                    "text.html.markdown"
+                ],
+                "embeddedLanguages": {
+                    "meta.embedded.block.julia": "julia"
+                }
+            }
+          ]
+    },
+    "extensionDependencies": [
+        "julialang.language-julia"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/colinfang/markdown-julia.git"
+    }
+}
