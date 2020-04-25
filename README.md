@@ -7,4 +7,3 @@ This extension provides Julia syntax highlighting in Markdown fenced code block.
 # Requirements
 
 - Require Julia extension.
-- Require VS Code v1.17+.

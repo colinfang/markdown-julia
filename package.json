@@ -5,10 +5,10 @@
     "version": "0.0.1",
     "publisher": "colinfang",
     "engines": {
-        "vscode": "^1.17.0"
+        "vscode": "^1.44.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "keywords": [
         "Julia", "Markdown"
