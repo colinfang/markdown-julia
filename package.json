@@ -2,7 +2,7 @@
     "name": "markdown-julia",
     "displayName": "Markdown Julia",
     "description": "Markdown fenced code block syntax highlighting for Julia",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "colinfang",
     "engines": {
         "vscode": "^1.44.0"
